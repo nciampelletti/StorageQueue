@@ -22,6 +22,7 @@ void ReceiveMessage()
 	foreach (var message in receivedMessages)
 	{
 		Console.WriteLine(message.Body);
+		queueClient.DeleteMessage(message.MessageId, message.PopReceipt);
 	}
 
 }
