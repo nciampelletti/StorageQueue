@@ -5,7 +5,7 @@ using StorageQueue;
 using System.Net;
 using System.Text.Json.Serialization;
 
-string connectionstring = "DefaultEndpointsProtocol=https;AccountName=appstore4040ciamp;AccountKey=583ab8LTT1/BAogvgTGIWJftkBgkNRsrp6yJJ2D0alVnlv4d6IRGaTKuzs3fNNbNoEwcAgpg0SGC+AStGevc6g==;EndpointSuffix=core.windows.net";
+string connectionstring = "";
 string qname = "appqueue";
 
 SendMessage(3, "Natalia 2", "111 Bosa ave, Vancouver");
