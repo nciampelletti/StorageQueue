@@ -3,7 +3,7 @@ using Azure.Storage.Queues;
 using Azure.Storage.Queues.Models;
 using System.Windows.Markup;
 
-string connectionstring = "DefaultEndpointsProtocol=https;AccountName=appstore4040ciamp;AccountKey=583ab8LTT1/BAogvgTGIWJftkBgkNRsrp6yJJ2D0alVnlv4d6IRGaTKuzs3fNNbNoEwcAgpg0SGC+AStGevc6g==;EndpointSuffix=core.windows.net";
+string connectionstring = "";
 string qname = "appqueue";
 
 
